@@ -31,4 +31,6 @@ Change the value to "IPFSTest photo use"
 
 <img width="1279" alt="Screen Shot 2022-08-29 at 12 03 24 AM" src="https://user-images.githubusercontent.com/44202870/187142346-5ef033d9-affd-4d68-80a3-78a94374b33c.png">  
 
+Edit ContentView.swift to include your project id and secret.  
+
 Lastly, create your provisioning profile. There are many online resources for this. 
