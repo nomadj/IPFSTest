@@ -13,6 +13,7 @@
 		9331FE4F28BC830700BF1DD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9331FE4E28BC830700BF1DD8 /* Preview Assets.xcassets */; };
 		9331FE5628BC836F00BF1DD8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9331FE5528BC836F00BF1DD8 /* ImagePicker.swift */; };
 		9331FE5828BC874200BF1DD8 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9331FE5728BC874200BF1DD8 /* Style.swift */; };
+		9331FE5D28BC8DA500BF1DD8 /* IPFSKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9331FE5C28BC8DA500BF1DD8 /* IPFSKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9331FE4E28BC830700BF1DD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9331FE5528BC836F00BF1DD8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		9331FE5728BC874200BF1DD8 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		9331FE5A28BC8B6C00BF1DD8 /* IPFSKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = IPFSKit; path = ../IPFSKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9331FE5D28BC8DA500BF1DD8 /* IPFSKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,8 +42,10 @@
 		9331FE3B28BC830300BF1DD8 = {
 			isa = PBXGroup;
 			children = (
+				9331FE5928BC8B6C00BF1DD8 /* Packages */,
 				9331FE4628BC830300BF1DD8 /* IPFSTest */,
 				9331FE4528BC830300BF1DD8 /* Products */,
+				9331FE5B28BC8DA500BF1DD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +78,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9331FE5928BC8B6C00BF1DD8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				9331FE5A28BC8B6C00BF1DD8 /* IPFSKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		9331FE5B28BC8DA500BF1DD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +109,9 @@
 			dependencies = (
 			);
 			name = IPFSTest;
+			packageProductDependencies = (
+				9331FE5C28BC8DA500BF1DD8 /* IPFSKit */,
+			);
 			productName = IPFSTest;
 			productReference = 9331FE4428BC830300BF1DD8 /* IPFSTest.app */;
 			productType = "com.apple.product-type.application";
@@ -204,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -259,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,6 +303,7 @@
 				DEVELOPMENT_TEAM = NM6M6A2ZA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "IPFSTest photo use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +333,7 @@
 				DEVELOPMENT_TEAM = NM6M6A2ZA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "IPFSTest photo use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,6 +374,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9331FE5C28BC8DA500BF1DD8 /* IPFSKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IPFSKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9331FE3C28BC830300BF1DD8 /* Project object */;
 }

@@ -17,6 +17,7 @@ struct ContentView: View {
     @State private var ipfsToggle = false
     @State private var isLoading = false
     @State private var imageIsPicked = false
+    @State private var alertIsPresenting = false
     
     let projectId = "YOUR-PROJECT-ID"
     let secret = "YOUR-SECRET"
@@ -26,7 +27,7 @@ struct ContentView: View {
             image?
                 .resizable()
                 .scaledToFit()
-            if !imageIsPicked {
+            HStack() {
                 Button("Choose Image") {
                     showingImagePicker = true
                 }
@@ -34,7 +35,7 @@ struct ContentView: View {
                 .onChange(of: inputImage) { _ in
                     loadImage()
                 }
-            } else {
+         
                 Button {
                     ipfsToggle.toggle()
                     isLoading.toggle()
@@ -60,6 +61,9 @@ struct ContentView: View {
                 }
                 .sheet(isPresented: $showingImagePicker) {
                     ImagePicker(image: $inputImage)
+                }
+                .alert(isPresented: $alertIsPresenting) {
+                    Alert(title: Text("Unable to Add"), message: Text("Choose an image first"))
                 }
             }
         }
@@ -88,7 +92,8 @@ struct ContentView: View {
             }
         }
         else {
-            print("Error retreiving file data")
+            alertIsPresenting.toggle()
+            isLoading.toggle()
         }
     }
 }
