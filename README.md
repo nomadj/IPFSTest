@@ -1,15 +1,15 @@
 # IPFSTest
 Testing the IPFSKit package.  
 ## Getting Started
-Clone the repository.  
+Clone this repository.  
 `$ git clone https://github.com/nomadj/IPFSTest.git`  
 
-Clone the IPFS package (anywhere outside of the project)  
+Clone the IPFSKit repository.    
 `$ git clone https://github.com/nomadj/IPFSKit.git`  
 
 Change into the root of the project directory and open the project in XCode.  
-`cd IPFSTest`  
-`open -a xcode IPFSTest.xcodeproj`  
+`$ cd IPFSTest`  
+`$ open -a xcode IPFSTest.xcodeproj`  
 
 Add a reference to the IPFS package. Click on the + and Add Local...  
 
