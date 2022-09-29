@@ -14,9 +14,23 @@
 		9331FE5628BC836F00BF1DD8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9331FE5528BC836F00BF1DD8 /* ImagePicker.swift */; };
 		9331FE5828BC874200BF1DD8 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9331FE5728BC874200BF1DD8 /* Style.swift */; };
 		9331FE5D28BC8DA500BF1DD8 /* IPFSKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9331FE5C28BC8DA500BF1DD8 /* IPFSKit */; };
+		93B1E5AE28D8AF7D009DFA55 /* abi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1E5AD28D8AF7C009DFA55 /* abi.swift */; };
+		93B9318D28DAC78000CADBC1 /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9318C28DAC78000CADBC1 /* VideoPicker.swift */; };
+		93B9318F28DAF63F00CADBC1 /* TempAVFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9318E28DAF63F00CADBC1 /* TempAVFile.swift */; };
+		93D8317228D791FF003E390A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8317128D791FE003E390A /* HomeView.swift */; };
+		93D8317428D7940E003E390A /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8317328D7940E003E390A /* settings.swift */; };
+		93D8317A28D79FD9003E390A /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8317928D79FD9003E390A /* Objects.swift */; };
+		93D8317C28D7A03A003E390A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8317B28D7A03A003E390A /* Utilities.swift */; };
+		93D8317E28D7A656003E390A /* error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8317D28D7A656003E390A /* error.swift */; };
+		93D8318028D7CF4C003E390A /* MintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8317F28D7CF4C003E390A /* MintView.swift */; };
+		93D8318228D7D03B003E390A /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8318128D7D03B003E390A /* DebugView.swift */; };
+		93D8318428D7EF17003E390A /* NewWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8318328D7EF17003E390A /* NewWalletView.swift */; };
+		A0D908EE592E99F7E5F509C6 /* Pods_IPFSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11562D2F6D00F65CE534E718 /* Pods_IPFSTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11562D2F6D00F65CE534E718 /* Pods_IPFSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IPFSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D076E970C978C97BA5032A7 /* Pods-IPFSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPFSTest.release.xcconfig"; path = "Target Support Files/Pods-IPFSTest/Pods-IPFSTest.release.xcconfig"; sourceTree = "<group>"; };
 		9331FE4428BC830300BF1DD8 /* IPFSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPFSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9331FE4728BC830300BF1DD8 /* IPFSTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPFSTestApp.swift; sourceTree = "<group>"; };
 		9331FE4928BC830300BF1DD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +39,18 @@
 		9331FE5528BC836F00BF1DD8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		9331FE5728BC874200BF1DD8 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		9331FE5A28BC8B6C00BF1DD8 /* IPFSKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = IPFSKit; path = ../IPFSKit; sourceTree = "<group>"; };
+		93B1E5AD28D8AF7C009DFA55 /* abi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abi.swift; sourceTree = "<group>"; };
+		93B9318C28DAC78000CADBC1 /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		93B9318E28DAF63F00CADBC1 /* TempAVFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempAVFile.swift; sourceTree = "<group>"; };
+		93D8317128D791FE003E390A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		93D8317328D7940E003E390A /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		93D8317928D79FD9003E390A /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		93D8317B28D7A03A003E390A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		93D8317D28D7A656003E390A /* error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = error.swift; sourceTree = "<group>"; };
+		93D8317F28D7CF4C003E390A /* MintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintView.swift; sourceTree = "<group>"; };
+		93D8318128D7D03B003E390A /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		93D8318328D7EF17003E390A /* NewWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWalletView.swift; sourceTree = "<group>"; };
+		9E158662FF1EFA45FF244C7D /* Pods-IPFSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPFSTest.debug.xcconfig"; path = "Target Support Files/Pods-IPFSTest/Pods-IPFSTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +59,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				9331FE5D28BC8DA500BF1DD8 /* IPFSKit in Frameworks */,
+				A0D908EE592E99F7E5F509C6 /* Pods_IPFSTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D4D6AD22B4C87DC309E9694 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E158662FF1EFA45FF244C7D /* Pods-IPFSTest.debug.xcconfig */,
+				4D076E970C978C97BA5032A7 /* Pods-IPFSTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9331FE3B28BC830300BF1DD8 = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +82,7 @@
 				9331FE4628BC830300BF1DD8 /* IPFSTest */,
 				9331FE4528BC830300BF1DD8 /* Products */,
 				9331FE5B28BC8DA500BF1DD8 /* Frameworks */,
+				3D4D6AD22B4C87DC309E9694 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,9 +98,14 @@
 			isa = PBXGroup;
 			children = (
 				9331FE4728BC830300BF1DD8 /* IPFSTestApp.swift */,
-				9331FE4928BC830300BF1DD8 /* ContentView.swift */,
-				9331FE5528BC836F00BF1DD8 /* ImagePicker.swift */,
+				93D8318528D7EF2D003E390A /* View */,
 				9331FE5728BC874200BF1DD8 /* Style.swift */,
+				93B9318E28DAF63F00CADBC1 /* TempAVFile.swift */,
+				93D8317928D79FD9003E390A /* Objects.swift */,
+				93D8317B28D7A03A003E390A /* Utilities.swift */,
+				93D8317328D7940E003E390A /* settings.swift */,
+				93D8317D28D7A656003E390A /* error.swift */,
+				93B1E5AD28D8AF7C009DFA55 /* abi.swift */,
 				9331FE4B28BC830700BF1DD8 /* Assets.xcassets */,
 				9331FE4D28BC830700BF1DD8 /* Preview Content */,
 			);
@@ -89,8 +131,23 @@
 		9331FE5B28BC8DA500BF1DD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				11562D2F6D00F65CE534E718 /* Pods_IPFSTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93D8318528D7EF2D003E390A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9331FE4928BC830300BF1DD8 /* ContentView.swift */,
+				93D8317128D791FE003E390A /* HomeView.swift */,
+				93D8317F28D7CF4C003E390A /* MintView.swift */,
+				9331FE5528BC836F00BF1DD8 /* ImagePicker.swift */,
+				93D8318328D7EF17003E390A /* NewWalletView.swift */,
+				93D8318128D7D03B003E390A /* DebugView.swift */,
+				93B9318C28DAC78000CADBC1 /* VideoPicker.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9331FE5228BC830700BF1DD8 /* Build configuration list for PBXNativeTarget "IPFSTest" */;
 			buildPhases = (
+				5E40E8DBBB154870B3108231 /* [CP] Check Pods Manifest.lock */,
 				9331FE4028BC830300BF1DD8 /* Sources */,
 				9331FE4128BC830300BF1DD8 /* Frameworks */,
 				9331FE4228BC830300BF1DD8 /* Resources */,
+				C5BE4C5992441800768E30DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +220,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E40E8DBBB154870B3108231 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPFSTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BE4C5992441800768E30DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IPFSTest/Pods-IPFSTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IPFSTest/Pods-IPFSTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IPFSTest/Pods-IPFSTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9331FE4028BC830300BF1DD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -168,8 +269,19 @@
 			files = (
 				9331FE5628BC836F00BF1DD8 /* ImagePicker.swift in Sources */,
 				9331FE4A28BC830300BF1DD8 /* ContentView.swift in Sources */,
+				93D8317428D7940E003E390A /* settings.swift in Sources */,
 				9331FE4828BC830300BF1DD8 /* IPFSTestApp.swift in Sources */,
+				93D8318428D7EF17003E390A /* NewWalletView.swift in Sources */,
+				93B1E5AE28D8AF7D009DFA55 /* abi.swift in Sources */,
+				93D8318028D7CF4C003E390A /* MintView.swift in Sources */,
+				93D8317228D791FF003E390A /* HomeView.swift in Sources */,
+				93B9318F28DAF63F00CADBC1 /* TempAVFile.swift in Sources */,
+				93D8317A28D79FD9003E390A /* Objects.swift in Sources */,
+				93D8317C28D7A03A003E390A /* Utilities.swift in Sources */,
+				93D8317E28D7A656003E390A /* error.swift in Sources */,
+				93B9318D28DAC78000CADBC1 /* VideoPicker.swift in Sources */,
 				9331FE5828BC874200BF1DD8 /* Style.swift in Sources */,
+				93D8318228D7D03B003E390A /* DebugView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +406,7 @@
 		};
 		9331FE5328BC830700BF1DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E158662FF1EFA45FF244C7D /* Pods-IPFSTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,6 +437,7 @@
 		};
 		9331FE5428BC830700BF1DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D076E970C978C97BA5032A7 /* Pods-IPFSTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
